@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Poster from './poster';
 import './movies.css';
-import SearchInput from '../components/search';
+import Search from '../components/search';
 
 const Movies = () => {
   const list = useSelector((state) => state.movies);
@@ -17,7 +17,7 @@ const Movies = () => {
 
   return (
     <>
-      <SearchInput search={search} handleChange={handleChange} />
+      <Search search={search} handleChange={handleChange} />
       <div className="grid-container">
         {filtered.map((movie) => (
           <Link to={`/${movie.id}`} key={movie.id}>

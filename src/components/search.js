@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Search from '../images/Search.png';
+import searchIcon from '../images/Search.png';
 import './search.css';
 
 const SearchInput = ({ search, handleChange }) => (
   <div className="search ">
-    <img src={Search} alt="search" />
+    <img src={searchIcon} alt="search" />
     <input
       type="text"
       placeholder="Search for your favorites"

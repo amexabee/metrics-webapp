@@ -83,7 +83,7 @@ After you're finished please remove all the comments and instructions!
 
 - **Async API call**
 - **Display Multiple Movies**
-- **[Get Detail Of Each Movie**
+- **Get Detail Of Each Movie**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,8 +157,8 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Movies_List]**
-- [ ] **[Movie_Detai]**
+- [ ] **Movies_List**
+- [ ] **Movie_Detai**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

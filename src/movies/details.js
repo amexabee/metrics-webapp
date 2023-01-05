@@ -3,7 +3,7 @@ import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-const SinglePage = () => {
+const Details = () => {
   const navigate = useNavigate();
   const list = useSelector((state) => state.movies);
   const { id } = useParams();
@@ -44,4 +44,4 @@ const SinglePage = () => {
   );
 };
 
-export default SinglePage;
+export default Details;

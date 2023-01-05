@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import searchIcon from '../images/Search.png';
 import './search.css';
 
-const SearchInput = ({ search, handleChange }) => (
+const Search = ({ search, handleChange }) => (
   <div className="search ">
     <img src={searchIcon} alt="search" />
     <input
@@ -16,9 +16,9 @@ const SearchInput = ({ search, handleChange }) => (
   </div>
 );
 
-SearchInput.propTypes = {
+Search.propTypes = {
   search: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired,
 };
 
-export default SearchInput;
+export default Search;

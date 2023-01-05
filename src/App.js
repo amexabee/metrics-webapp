@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import getMovies from './movies/moviesAPI';
 import store from './ConfigStore';
 import Navbar from './navbar/Navbar';
-import MoviesList from './movies/moviesList';
+import Movies from './movies/movies';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<MoviesList />} />
+        <Route path="/" element={<Movies />} />
       </Routes>
     </BrowserRouter>
   );

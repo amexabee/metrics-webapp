@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Poster from './poster';
 import './movies.css';
@@ -19,9 +20,11 @@ const Movies = () => {
       <SearchInput search={search} handleChange={handleChange} />
       <div className="grid-container">
         {filtered.map((movie) => (
-          <div className="grid-item" key={movie.id}>
-            <Poster id={movie.id} name={movie.name} images={movie.images} />
-          </div>
+          <Link to={`/${movie.id}`} key={movie.id}>
+            <div className="grid-item" key={movie.id}>
+              <Poster id={movie.id} name={movie.name} images={movie.images} />
+            </div>
+          </Link>
         ))}
       </div>
     </>

@@ -7,7 +7,8 @@ const Poster = (props) => {
   return (
     <>
       <img alt={name} src={images} />
-      <p>{name}</p>
+
+      <p className="movie-name">{name}</p>
     </>
   );
 };

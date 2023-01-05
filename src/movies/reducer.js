@@ -18,6 +18,7 @@ export default function reducer(state = [], action = {}) {
             id: index + 1,
             name: movie.name,
             images: movie.image.medium,
+            show: movie,
           },
         ];
       });

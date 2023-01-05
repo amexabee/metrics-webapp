@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Movies />} />
         <Route path="/:id" element={<SinglePage />} />

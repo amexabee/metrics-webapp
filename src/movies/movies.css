@@ -16,3 +16,29 @@
   box-shadow: 10px 10px 10px 10px #000;
   cursor: pointer;
 }
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.direct {
+  background-color: #cb1c8d;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.direct:hover {
+  background-color: #aa336a;
+}
+
+.movie-name {
+  color: #000;
+  font-size: 20px;
+  max-width: 220px;
+}

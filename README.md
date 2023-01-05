@@ -60,8 +60,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Movies & TV Shows List <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **Movies & TV Shows List** is a web app which fetches top movies and tv shows from an api and displays them. Users can filter through the list based on the search parameters they typed. And also they can click on any of the list to get detailed information.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -78,8 +76,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Async API call**
 - **Display Multiple Movies**
@@ -158,7 +154,7 @@ To run tests, run the following command:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **Movies_List**
-- [ ] **Movie_Detai**
+- [ ] **Movie_Details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -9,14 +9,19 @@ body {
   background-color: #aa336a;
 }
 
-button {
-  border: 0;
-  border-radius: 3px;
-  color: white;
-  font-size: 1.8vh;
-  padding: 5px 10px;
-  margin-top: 5px;
+.go-back {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background-color: #cb1c8d;
+  border: 1px solid #000;
+  border-radius: 10px;
   cursor: pointer;
+  height: 30px;
+}
+
+.go-back:hover {
+  background-color: #aa336a;
 }
 
 h1 {
@@ -24,4 +29,9 @@ h1 {
   margin: 0;
   font-size: 4.5vh;
   font-weight: 700;
+}
+
+:link {
+  text-decoration: none;
+  color: #000;
 }

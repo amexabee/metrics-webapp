@@ -59,7 +59,7 @@
     display: grid;
     justify-content: space-around;
     column-gap: 0;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(1, 1fr);
     padding: 10px;
     row-gap: 50px;
   }

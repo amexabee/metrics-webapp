@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Movies_&_TV_Shows_List]** is a web app which fetches top movies and tv shows from an api and displays them. Users can filter through the list based on the search parameters they typed. And also they can click on any of the list to get detailed information.
+**Movies & TV Shows List** is a web app which fetches top movies and tv shows from an api and displays them. Users can filter through the list based on the search parameters they typed. And also they can click on any of the list to get detailed information.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,9 +81,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[Async_API_call]**
-- **[Display_Multiple_Movies]**
-- **[Get_Detail_Of_Each_Movie]**
+- **Async API call**
+- **Display Multiple Movies**
+- **[Get Detail Of Each Movie**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

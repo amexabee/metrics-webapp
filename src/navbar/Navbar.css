@@ -1,5 +1,4 @@
 .Navbar {
-  width: auto;
   background-color: #cb1c8d;
   padding: 0.8rem 0;
   display: flex;
@@ -7,30 +6,13 @@
   align-items: center;
   gap: 8px;
   border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100px;
 }
 
-.BackIcon {
-  color: #4b56d2;
-  background: white;
-  position: absolute;
-  top: 2rem;
-  left: 0.8rem;
-  border-radius: 20%;
-  padding: 0.5rem;
-}
-
-.Navbar > h1 {
-  color: #4b56d2;
-  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+.Navbar h1 {
+  color: #000;
   font-weight: bold;
-}
-
-.Navbar > img {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin: 0 0.5rem;
-  padding: 0.5rem;
-  border-radius: 20%;
-  border: #4b56d2 solid 2px;
-  box-shadow: 0 0 0.5rem 0.1rem rgb(255, 255, 255);
 }

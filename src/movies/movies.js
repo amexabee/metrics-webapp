@@ -7,17 +7,17 @@ import Search from '../components/search';
 
 const Movies = () => {
   const list = useSelector((state) => state.movies);
-  const [search, setSearch] = useState('');
+  const [input, setSearch] = useState('');
 
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
 
-  const filtered = list.filter((movie) => movie.name.toLowerCase().includes(search.toLowerCase()));
+  const filtered = list.filter((movie) => movie.name.toLowerCase().includes(input.toLowerCase()));
 
   return (
     <>
-      <Search search={search} handleChange={handleChange} />
+      <Search search={input} handleChange={handleChange} />
       <div className="grid-container">
         {filtered.map((movie) => (
           <Link to={`/${movie.id}`} key={movie.id}>
